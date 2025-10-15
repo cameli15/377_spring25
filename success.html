@@ -1,0 +1,31 @@
+<html>
+  <head>
+    <title>Success Form</title>
+    <link rel="stylesheet" href="styling.css" />
+  </head>
+
+  <body>
+    <h1 id="succ1">Thanks for submitting, I'll reach out soon!</h1>
+    <br />
+    <h2 id="succ2">
+      You will be redirected to the Homepage within the next 10 seconds. If not,
+      please click the Home page icon below to be redirected.
+    </h2>
+    <h2 id="succ3">
+      &#8595; &#8595; &#8595; &#8595; &#8595; &#8595; &#8595; &#8595; &#8595;
+      &#8595; &#8595; &#8595;
+    </h2>
+
+    <img
+      src="https://cdn-icons-png.flaticon.com/512/25/25694.png"
+      class="homeicon"
+      alt="Home Icon"
+      onclick="window.location.href='home.html';"
+    />
+  </body>
+  <script>
+    setTimeout(function () {
+      window.location.href = "home.html";
+    }, 5000);
+  </script>
+</html>
