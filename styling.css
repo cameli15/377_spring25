@@ -1,0 +1,178 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background-color: #bfc9db;
+}
+
+/*Header & Footer CSS*/
+#bar {
+  text-align: center;
+  background-color: #D60270;
+  color: white;
+  padding: 10px 0;
+  margin: 0 auto;
+}
+
+#foot {
+  text-align: center;
+  background-color: #D60270;
+  color: white;
+  padding: 10px 0;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+}
+
+/*Navigation CSS*/
+#main-nav {
+  background-color: #9b4f96;
+  text-align: center;
+  padding: 10px 0;
+  margin: 0 auto;
+}
+
+#main-nav ul {
+  padding: 0;
+  margin: 0;
+}
+
+#main-nav ul li {
+  display: inline;
+  padding: 0 15px;
+}
+
+#main-nav ul li a {
+  text-decoration: none;
+  color: white;
+  padding: 10px;
+}
+
+#main-nav ul li a:hover {
+  background-color: #0038a8;
+}
+
+/*Home Page CSS*/
+.main-content {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  width: 99%;
+  margin: 10px auto;
+}
+
+.main-section {
+  border: 4px solid black;
+  width: 60%;
+  padding: 2px;
+}
+
+.sub-section {
+  background-color: white;
+  margin: 10px;
+  padding: 1px;
+}
+
+.sidebar {
+  width: 30%;
+  border: 4px solid black;
+  background-color: #b876b3;
+  padding: 10px;
+  text-align: center;
+}
+
+#reach:hover {
+  background-color: #2346b8;
+  color: white;
+  border-radius: 5px;
+}
+
+#reach {
+  border-radius: 5px;
+  padding: 5px;
+}
+
+hr {
+  border: black solid 1px;
+}
+
+.logo {
+  width: 100px;
+  height: auto;
+  align-items: flex-end;
+
+}
+
+.wrap {
+  display: flex;
+  justify-content: space-between;
+  margin-right: 5;
+}
+
+/*Game Page CSS*/
+.game {
+  text-align: center;
+  padding: 20px;
+}
+
+.result {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 20px;
+}
+
+.userChoice,
+.computerChoice {
+  width: 45%;
+  border: 2px solid black;
+  justify-content: space-between;
+  padding: 10px;
+  box-shadow: 0 5px 5px;
+  background-color: white;
+}
+
+/*Game Section Java CSS */
+@media (max-width: 200px) {
+  .result {
+    flex-direction: column;
+  }
+
+  .userChoice,
+  .computerChoice {
+    width: 80%;
+    margin: 10px auto;
+  }
+}
+
+/*Contact Page CSS */
+.contactForm {
+  margin-left: 10;
+}
+
+
+/* Success Form CSS */
+#succ1 {
+  text-align: center;
+  margin-top: 20;
+}
+
+#succ2 {
+  text-align: center;
+}
+
+#succ3 {
+  text-align: center;
+  color: #0038a8;
+}
+
+.homeicon {
+  justify-content: center;
+  margin: auto;
+  display: block;
+}
+
+.homeicon:hover {
+  background-color: #0038a8;
+  border-radius: 130px;
+  transition: 0.3s;
+}
