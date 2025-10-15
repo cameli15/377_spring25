@@ -1,0 +1,54 @@
+<html>
+  <head>
+    <title>Game Page</title>
+    <link rel="stylesheet" href="styling.css" />
+  </head>
+
+  <body>
+    <!--Header Section-->
+    <header id="bar">
+      <h1>Game Time!</h1>
+    </header>
+
+    <!--Nav Bar Section-->
+    <nav id="main-nav">
+      <ul>
+        <li><a href="home.html">Home</a></li>
+        <li><a href="games.html">Game</a></li>
+        <li><a href="contact.html">Contact Me</a></li>
+      </ul>
+    </nav>
+
+    <!--Game Section-->
+    <div class="game">
+      <form id="gameForm" onsubmit="return playGame()">
+        <label for="choice"><h1>Choose Rock, Paper, or Scissors!</h1></label>
+        <hr />
+        <select id="choice" name="choice">
+          <option value="" disabled selected>Select</option>
+          <option value="ROCK">Rock</option>
+          <option value="PAPER">Paper</option>
+          <option value="SCISSORS">Scissors</option>
+        </select>
+        <input type="submit" value="Play" />
+      </form>
+      <div class="result">
+        <div class="userChoice">
+          <h2>You Chose:</h2>
+          <p id="userResult"></p>
+        </div>
+        <div class="computerChoice">
+          <h2>Computer Chose:</h2>
+          <p id="computerResult"></p>
+        </div>
+      </div>
+    </div>
+
+    <!-- Footer Section -->
+    <footer id="foot">
+      <p>Created by Cinthia Contreras</p>
+    </footer>
+
+    <script src="classpagejava.js"></script>
+  </body>
+</html>
